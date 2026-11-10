@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+frontend/dist/
+
+# Environment
+.env
+
+# Local runtime data
+uploads/*
+reports/*
+!uploads/.gitkeep
+!reports/.gitkeep
+
+# Test and tooling caches
+.pytest_cache/
+.coverage
+.vscode/
